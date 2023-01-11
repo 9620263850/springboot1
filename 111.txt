@@ -1,0 +1,14 @@
+Spring life cycle-
+1)SpringContainer
+*spring life cycle is managed by springcontainer
+*core of the spring frame work
+*get started when we run the program
+
+*contains 2 methods
+1)init()-it is used to initialise the bean object
+*init() called after injecting the dependencies
+*container will call init() implisitly / we can call explisitly
+2)destroy()
+*it is used to destroy bean object
+*we need to call it explisitly
+*this method should be called before closing the jvm
